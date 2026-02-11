@@ -1,6 +1,6 @@
 # 🚀 KuttyHack Series:
 
-![Event Banner](https://via.placeholder.com/1200x300/000000/FFFFFF?text=HACK+NIGHT:+TOOL+NAME+HERE)
+![Event Banner](./assets/banner.png)
 
 ## 📅 This Week's Schedule
 * **Saturday (Seminar):** 10:00 AM - 12:00 PM | Intro to [Framework Name] & Environment Setup.
