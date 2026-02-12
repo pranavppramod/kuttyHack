@@ -1,4 +1,4 @@
-# 🚀 KuttyHack Series: [Topic Name]
+# 🚀 KuttyHack Series: The n8n Edition
 
 ![Event Banner](./assets/banner.png)
 
