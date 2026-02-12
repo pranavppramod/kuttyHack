@@ -4,14 +4,18 @@
 
 # Title: [Insert Project Name]
 
+---
+
 ### Team Members
 * **Member 1:** [Name / GitHub Link]
 * **Member 2:** [Name / GitHub Link]
 
+---
 
 ### Link to product walkthrough
 [Insert Link to Video (YouTube/Loom/Drive)]
 
+---
 
 ### How it Works?
 
@@ -21,11 +25,13 @@
 #### 2. Embed video of project demo
 ![Project Demo](https://via.placeholder.com/800x450.png?text=Link+Your+Demo+GIF+or+Video+Thumbnail+Here)
 
+---
 
 ### Libraries / Nodes used
 * **Core Tool:** [e.g., n8n, Flask, or Flutter]
 * **Nodes/Integrations:** [e.g., HTTP Request Node, Gmail API, OpenAI, BeautifulSoup]
 
+---
 
 ### How to configure
 1. **API Keys:** [List the keys required, e.g., OPENAI_API_KEY]
@@ -33,6 +39,7 @@
    - **For Python/Backend:** Rename `.env.example` to `.env` and add your keys. Run `pip install -r requirements.txt`.
 3. **Credentials:** Go to the "Credentials" tab in n8n and set up the required authentications (OAuth2, API Key, etc.).
 
+---
 
 ### How to run
 #### Running the Backend / n8n
