@@ -13,7 +13,7 @@
 ---
 
 ### Link to product walkthrough
-[Insert Link to Video (YouTube/Loom/Drive)]
+[Insert Link to Video (YouTube/Drive)]
 
 ---
 
@@ -23,7 +23,7 @@
 [Describe the logic here. If using n8n, explain how the trigger initiates the flow, which nodes process the data, and where the final result is sent.]
 
 #### 2. Embed video of project demo
-![Project Demo](https://via.placeholder.com/800x450.png?text=Link+Your+Demo+GIF+or+Video+Thumbnail+Here)
+[Insert link to Video (Youtube/Drive)]
 
 ---
 
