@@ -1,4 +1,4 @@
-# 🚀 KuttyHack Series: [Topic Name - e.g., n8n Automation]
+# 🚀 KuttyHack Series: [Topic Name]
 
 ![Event Banner](./assets/banner.png)
 
@@ -20,7 +20,7 @@
 ### How it Works?
 
 #### 1. Explaining the working of project
-[Describe the logic here. If using n8n, explain how the trigger initiates the flow, which nodes process the data, and where the final result is sent.]
+[Describe the logic here.]
 
 #### 2. Embed video of project demo
 [Insert link to Video (Youtube/Drive)]
@@ -28,14 +28,19 @@
 ---
 
 ### Libraries
-[Mention the Libraries/Tools Used]
+[Mention the Libraries/Tools Used.]
 
 ---
 
 ### How to configure
-[Explain How to configue]
+[Explain How to configue.]
 
 ---
 
 ### How to run
-[Explain How to run]
+[Explain How to run.]
+
+---
+
+### Running the App
+[Running the App on differnet devices.]
