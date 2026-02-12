@@ -1,41 +1,49 @@
-# 🚀 KuttyHack Series:
+# 🚀 KuttyHack Series: [Topic Name - e.g., n8n Automation]
 
 ![Event Banner](./assets/banner.png)
 
-## 📅 This Week's Schedule
-* **Saturday (Seminar):** 10:00 AM - 12:00 PM | Intro to [Framework Name] & Environment Setup.
-* **Sunday (Hackathon):** 06:00 PM - 12:00 AM | Build, Break, and Deploy.
+# Title: [Insert Project Name]
 
----
+### Team Members
+* **Member 1:** [Name / GitHub Link]
+* **Member 2:** [Name / GitHub Link]
 
-## 🛠️ The Challenge: [Insert Project Name, e.g., truthTrace]
-**The Goal:** [Brief 1-sentence description of what they are building].
 
-### 🎯 Objective
-[Describe the core problem. Example: Build a fact-checker that scrapes data using LangChain and displays a confidence score.]
+### Link to product walkthrough
+[Insert Link to Video (YouTube/Loom/Drive)]
 
-### 🔧 Tech Stack for this Week
-* **Core Tool:** [e.g., Flask / Flutter / LangChain]
-* **Language:** [e.g., Python / Dart]
-* **API/Data:** [e.g., Google Search API / BeautifulSoup]
 
----
+### How it Works?
 
-## 🚀 Starter Kit
-1. **Clone this repo:** `git clone <repo-url>`
-2. **Setup Env:** [e.g., `pip install -r requirements.txt`]
-3. **Run:** [e.g., `python main.py`]
+#### 1. Explaining the working of project
+[Describe the logic here. If using n8n, explain how the trigger initiates the flow, which nodes process the data, and where the final result is sent.]
 
----
+#### 2. Embed video of project demo
+![Project Demo](https://via.placeholder.com/800x450.png?text=Link+Your+Demo+GIF+or+Video+Thumbnail+Here)
 
-## 📝 Candidate Project Description
-> **ATTENTION HACKERS:** Replace this section with your own project details when you submit.
 
-### Hacker Name: [Insert Name]
+### Libraries / Nodes used
+* **Core Tool:** [e.g., n8n, Flask, or Flutter]
+* **Nodes/Integrations:** [e.g., HTTP Request Node, Gmail API, OpenAI, BeautifulSoup]
 
-### What I built:
-[Describe your specific twist on the challenge here.]
 
-### How to run our version:
-```bash
-# Insert commands here
+### How to configure
+1. **API Keys:** [List the keys required, e.g., OPENAI_API_KEY]
+2. **Setup Environment:** - **For n8n:** Import the `.json` file from the `/workflows` folder into your n8n dashboard.
+   - **For Python/Backend:** Rename `.env.example` to `.env` and add your keys. Run `pip install -r requirements.txt`.
+3. **Credentials:** Go to the "Credentials" tab in n8n and set up the required authentications (OAuth2, API Key, etc.).
+
+
+### How to run
+#### Running the Backend / n8n
+1. **Start n8n:** Ensure your instance is running (locally via `npx n8n` or Docker).
+2. **Import Workflow:** Go to **Workflows > Import from File** and select your `.json`.
+3. **Activate:** Toggle the **Active** switch in the top right corner to enable automatic triggers (like Webhooks or Cron).
+
+#### Running the App (Frontend/CLI)
+1. **Install Dependencies:**
+   ```bash
+   # If Flutter:
+   flutter pub get
+   # If Python:
+   python -m venv venv && source venv/bin/activate && pip install -r requirements.txt
